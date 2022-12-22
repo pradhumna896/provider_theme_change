@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 class FavoriteItemProvider with ChangeNotifier{
-  List _favoriteList = [];
+  final List _favoriteList = [];
   List get favoriteList => _favoriteList;
 
   void addFavorite(value){
